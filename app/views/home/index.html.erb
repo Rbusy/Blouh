@@ -1,0 +1,6 @@
+<%= form_tag(tesk_path) do |f| %>
+    <%= collection_select('money', 'value', @kebab, :last, :first, prompt: :true) do |f| %>
+    <% end %>
+    <%= submit_tag "OK",  method: :post %>
+<% end %>
+<%= flash[:notice] %>

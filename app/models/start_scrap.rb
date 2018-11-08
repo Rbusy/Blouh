@@ -1,0 +1,2 @@
+class StartScrap < ApplicationRecord
+end

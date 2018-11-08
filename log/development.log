@@ -1,0 +1,1458 @@
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:36:46 +0100
+  
+SyntaxError (/home/rbusy/Work/rails-service/app/controllers/home_controller.rb:4: syntax error, unexpected keyword_end, expecting ')'
+  end
+  ^~~):
+  
+app/controllers/home_controller.rb:4: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:37:00 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 517ms (Views: 508.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:37:41 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:37:41 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 32ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:38:48 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1416ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:38:52 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1437ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:40:40 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 1323ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/rbusy/Work/rails-service/app/views/home/index.html.erb:1: syntax error, unexpected '<'
+...r.new;@output_buffer.append=  <%= form_for(@kebab , remote: ...
+...                              ^
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:2: syntax error, unexpected '<'
+...reeze;@output_buffer.append=( <%= text_field_tag (:vroum), c...
+...                              ^
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:3: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+          ^~~
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:5: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:7: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/home/index.html.erb:1: syntax error, unexpected '<'
+app/views/home/index.html.erb:2: syntax error, unexpected '<'
+app/views/home/index.html.erb:3: syntax error, unexpected keyword_end, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:40:51 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 1148ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `model_name' for #<StartScrap:0x00007f71d65f3f30>):
+    1: <%= form_for(@kebab , remote: true) do |f| %>
+    2:     <%= text_field_tag (:vroum), collection: @kebab %>
+    3: <% end %>
+  
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063477640820'
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:41:29 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1215ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:42:54 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 1432ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `map' for #<StartScrap:0x00007f71d9312138>
+Did you mean?  tap):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= text_field_tag (:vroum), collection: @kebab %>
+    3:     <%= options_for_select(@kebab) %>
+    4: <% end %>
+  
+app/views/home/index.html.erb:3:in `block in _app_views_home_index_html_erb__4531214829853661817_70063407191540'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063407191540'
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:43:53 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 1140ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/rbusy/Work/rails-service/app/views/home/index.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+...lue', @kebab, :first, :last)) );@output_buffer.safe_append='
+...                              ^
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:6: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/home/index.html.erb:3: syntax error, unexpected ')', expecting keyword_end
+app/views/home/index.html.erb:6: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:44:08 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 1244ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 5, expected 1..2)):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= text_field_tag (:vroum), collection: @kebab %>
+    3:     <%= options_for_select('money', 'value', @kebab, :first, :last) %>
+    4: <% end %>
+  
+app/views/home/index.html.erb:3:in `block in _app_views_home_index_html_erb__4531214829853661817_70063409936200'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063409936200'
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:44:35 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 1253ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `map' for #<StartScrap:0x0000000003c2b2c8>
+Did you mean?  tap):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= text_field_tag (:vroum), collection: @kebab %>
+    3:     <%= collection_select('money', 'value', @kebab, :first, :last) %>
+    4: <% end %>
+  
+app/views/home/index.html.erb:3:in `block in _app_views_home_index_html_erb__4531214829853661817_70063410564540'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063410564540'
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:45:28 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 1205ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `map' for #<StartScrap:0x00007f71d916fec0>
+Did you mean?  tap):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= text_field_tag (:vroum), collection: @kebab %>
+    3:     <%= collection_select('money', 'value', @kebab  || [], :first, :last) %>
+    4: <% end %>
+  
+app/views/home/index.html.erb:3:in `block in _app_views_home_index_html_erb__4531214829853661817_70063410562840'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063410562840'
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:46:19 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 1134ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `map' for #<StartScrap:0x00007f71d9199018>
+Did you mean?  tap):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= text_field_tag (:vroum), collection: @kebab %>
+    3:     <%= collection_select('money', 'value', @kebab  || [], :first, :last) %>
+    4: <% end %>
+  
+app/views/home/index.html.erb:3:in `block in _app_views_home_index_html_erb__4531214829853661817_70063409799560'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063409799560'
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:46:23 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 1180ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `map' for #<StartScrap:0x00007f71dce4a9a8>
+Did you mean?  tap):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= text_field_tag (:vroum), collection: @kebab %>
+    3:     <%= collection_select('money', 'value', @kebab  || [], :first, :last) %>
+    4: <% end %>
+  
+app/views/home/index.html.erb:3:in `block in _app_views_home_index_html_erb__4531214829853661817_70063410561800'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063410561800'
+Started PUT "/__web_console/repl_sessions/a6d7360e19a8b1c66f498ad423a9e969" for 127.0.0.1 at 2018-11-08 17:46:27 +0100
+Started PUT "/__web_console/repl_sessions/a6d7360e19a8b1c66f498ad423a9e969" for 127.0.0.1 at 2018-11-08 17:46:28 +0100
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:47:16 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 1798ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:47:32 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 1138ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:48:00 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 1296ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `money' for #<StartScrap:0x00007f71d962c8a0>):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= collection_select('value', 'money', @kebab  || [], :first, :last) %>
+    3: <% end %>
+  
+app/views/home/index.html.erb:2:in `block in _app_views_home_index_html_erb__4531214829853661817_70063409932760'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063409932760'
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:48:21 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 1654ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `money' for #<StartScrap:0x00007f71d8f54b40>):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= collection_select('value', 'money', @kebab  || [], :first, :last) %>
+    3: <% end %>
+  
+app/views/home/index.html.erb:2:in `block in _app_views_home_index_html_erb__4531214829853661817_70063409494840'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063409494840'
+Started PUT "/__web_console/repl_sessions/245c0a9e8600ac33365248d9e52615f3" for 127.0.0.1 at 2018-11-08 17:48:46 +0100
+Started PUT "/__web_console/repl_sessions/245c0a9e8600ac33365248d9e52615f3" for 127.0.0.1 at 2018-11-08 17:48:47 +0100
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:49:05 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 1315ms (Views: 28.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:49:22 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 1224ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `money' for #<StartScrap:0x00007f71d9537490>):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= collection_select('value', 'money', @kebab, :first, :last) %>
+    3: <% end %>
+  
+app/views/home/index.html.erb:2:in `block in _app_views_home_index_html_erb__4531214829853661817_70063408742040'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063408742040'
+Started GET "/" for 127.0.0.1 at 2018-11-08 17:50:10 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 1210ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:01:43 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (35.9ms)
+Completed 200 OK in 1510ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:02:35 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 1501ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:03:09 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 1336ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:04:51 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (8.9ms)
+Completed 500 Internal Server Error in 1362ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name_with_initial' for ["Bitcoin", "$6455.37"]:Array):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= collection_select('money', 'value', @kebab, :last, :name_with_initial, prompt: :value) %>
+    3: <% end %>
+  
+app/views/home/index.html.erb:2:in `block in _app_views_home_index_html_erb__4531214829853661817_70063411841080'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063411841080'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:05:39 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (25.3ms)
+Completed 200 OK in 1858ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:05:54 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 1411ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:06:38 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 1489ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `name' for ["Bitcoin", "$6455.37"]:Array):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= collection_select('money', 'value', @kebab, :last, :name, prompt: :value) %>
+    3: <% end %>
+  
+app/views/home/index.html.erb:2:in `block in _app_views_home_index_html_erb__4531214829853661817_70063083537420'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063083537420'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:06:54 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 1245ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:07:14 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 500 Internal Server Error in 1544ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `delete' for :text_method:Symbol):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= collection_select('money', 'value', @kebab, :last, :first, :text_method, prompt: :value) %>
+    3: <% end %>
+  
+app/views/home/index.html.erb:2:in `block in _app_views_home_index_html_erb__4531214829853661817_70063477700240'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063477700240'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:08:57 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 1346ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/rbusy/Work/rails-service/app/views/home/index.html.erb:2: syntax error, unexpected '}', expecting =>
+...irst, {:prompt => true, :value}) );@output_buffer.safe_appen...
+...                              ^
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:3: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+          ^~~
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:5: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:7: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/home/index.html.erb:2: syntax error, unexpected '}', expecting =>
+app/views/home/index.html.erb:3: syntax error, unexpected keyword_end, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:09:06 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 1224ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/rbusy/Work/rails-service/app/views/home/index.html.erb:2: syntax error, unexpected '}', expecting =>
+...first, {:prompt => true, :last}) );@output_buffer.safe_appen...
+...                              ^
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:3: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+          ^~~
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:5: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:7: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/home/index.html.erb:2: syntax error, unexpected '}', expecting =>
+app/views/home/index.html.erb:3: syntax error, unexpected keyword_end, expecting ')'
+app/views/home/index.html.erb:5: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:09:22 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 1393ms (Views: 31.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:10:02 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 1228ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:10:23 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 1774ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:10:39 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 1346ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/rbusy/Work/rails-service/app/views/home/index.html.erb:3: syntax error, unexpected '<', expecting keyword_end
+    '.freeze; <%= text_field_tag :value) ;@o...
+              ^
+/home/rbusy/Work/rails-service/app/views/home/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/home/index.html.erb:3: syntax error, unexpected '<', expecting keyword_end
+app/views/home/index.html.erb:7: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:10:53 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 1388ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:11:15 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 2543ms (Views: 43.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:11:22 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 1404ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:12:46 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 1262ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `value' for #<Hash:0x00007f71dd30d850>
+Did you mean?  value?
+               values):
+    2:     <%= collection_select('money', 'value', @kebab, :last, :first) %>
+    3:     <% text_field_tag :value %>
+    4:     <%= f.collection_select 'money', @kebab, :last, :first,
+    5:                        prompt: true, selected: @kebab.value %>
+    6: <% end %>
+  
+app/views/home/index.html.erb:5:in `block in _app_views_home_index_html_erb__4531214829853661817_70063409390600'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063409390600'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:12:53 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.3ms)
+Completed 500 Internal Server Error in 1188ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `collection_select' for nil:NilClass):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= collection_select('money', 'value', @kebab, :last, :first) %>
+    3:     <% text_field_tag :value %>
+    4:     <%= f.collection_select 'money', @kebab, :last, :first,
+    5:                        prompt: true, selected: @kebab %>
+    6: <% end %>
+  
+app/views/home/index.html.erb:4:in `block in _app_views_home_index_html_erb__4531214829853661817_70063408702360'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063408702360'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:13:11 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (21.4ms)
+Completed 500 Internal Server Error in 1209ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `collection_select' for nil:NilClass):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= collection_select('money', 'value', @kebab, :last, :first) %>
+    3:     <% text_field_tag :value %>
+    4:     <%= f.collection_select 'money', 'value', @kebab, :last, :first,
+    5:                        prompt: true, selected: @kebab %>
+    6: <% end %>
+  
+app/views/home/index.html.erb:4:in `block in _app_views_home_index_html_erb__4531214829853661817_70063408285800'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063408285800'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:13:56 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 2093ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:14:43 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 1555ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:15:22 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 1178ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:15:55 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 1636ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:16:11 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (346.0ms)
+Completed 500 Internal Server Error in 1683ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `home_path' for #<#<Class:0x00007f71d1652e68>:0x00007f71d1079fc8>
+Did you mean?  home_index_path):
+    2:     <%= collection_select('money', 'value', @kebab, :last, :first, selected: :value) do |f| %>
+    3:         <%= f.submit_tag url: home_path, method: :post %>
+    4:     <% end %>
+    5:     <%= f.submit_tag url: home_path, method: :post %>
+    6: <% end %>
+  
+app/views/home/index.html.erb:5:in `block in _app_views_home_index_html_erb__4531214829853661817_70063407486480'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063407486480'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:16:23 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (23.4ms)
+Completed 500 Internal Server Error in 1436ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `submit_tag' for nil:NilClass):
+    2:     <%= collection_select('money', 'value', @kebab, :last, :first, selected: :value) do |f| %>
+    3:         <%= f.submit_tag url: home_path, method: :post %>
+    4:     <% end %>
+    5:     <%= f.submit_tag url: home_index_path, method: :post %>
+    6: <% end %>
+  
+app/views/home/index.html.erb:5:in `block in _app_views_home_index_html_erb__4531214829853661817_70063570849260'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063570849260'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:16:32 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (22.7ms)
+Completed 500 Internal Server Error in 2104ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `submit' for nil:NilClass):
+    2:     <%= collection_select('money', 'value', @kebab, :last, :first, selected: :value) do |f| %>
+    3:         <%= f.submit_tag url: home_path, method: :post %>
+    4:     <% end %>
+    5:     <%= f.submit url: home_index_path, method: :post %>
+    6: <% end %>
+  
+app/views/home/index.html.erb:5:in `block in _app_views_home_index_html_erb__4531214829853661817_70063436798320'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063436798320'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:17:11 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 1250ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:17:14 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:17:28 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 1512ms (Views: 30.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:17:32 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bJs6KhTMeh6ZJ0Mc5vpR78c2I+m8Sf3xsSw8c71JkMYKYDxR9tbJz9Y9VPrqQo6Xfe63N/4elqLijyP8hHD4pA==", "money"=>{"value"=>"$53.24"}, "commit"=>"{:url=>\"/home/index\", :method=>:post}", "remote"=>"true"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 1588ms (Views: 42.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:18:40 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"remote"=>"true"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 1496ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:18:45 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:19:00 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"remote"=>"true"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 1363ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:19:05 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:19:54 +0100
+  
+SyntaxError (/home/rbusy/Work/rails-service/config/routes.rb:5: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  post 'home/testk', to 'home#testk', as 'tesk'
+                        ^
+/home/rbusy/Work/rails-service/config/routes.rb:5: syntax error, unexpected ',', expecting keyword_end
+... 'home/testk', to 'home#testk', as 'tesk'
+...                              ^
+/home/rbusy/Work/rails-service/config/routes.rb:6: syntax error, unexpected keyword_end, expecting end-of-input):
+  
+config/routes.rb:5: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+config/routes.rb:5: syntax error, unexpected ',', expecting keyword_end
+config/routes.rb:6: syntax error, unexpected keyword_end, expecting end-of-input
+Started POST "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:20:13 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:20:22 +0100
+  
+SyntaxError (/home/rbusy/Work/rails-service/config/routes.rb:5: syntax error, unexpected ':', expecting keyword_end
+  post: 'home/testk', to: 'home#test...
+      ^
+/home/rbusy/Work/rails-service/config/routes.rb:5: syntax error, unexpected ',', expecting end-of-input
+  post: 'home/testk', to: 'home#testk', as: 'tesk'
+                    ^):
+  
+config/routes.rb:5: syntax error, unexpected ':', expecting keyword_end
+config/routes.rb:5: syntax error, unexpected ',', expecting end-of-input
+Started POST "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:20:28 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:20:52 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HHY5VHzYNn3o/5GpwFP2fGyKLcB8ykIKGKGqM6L542l6jT8vnsKFrKflhk/M6ykE1lK5Hj6dKVlLArW8m8CLCw==", "money"=>{"value"=>"$6466.02"}, "commit"=>"{:url=>\"/home/testk\", :method=>:post}", "remote"=>"true"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (245.9ms)
+Completed 500 Internal Server Error in 1367ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `testk_path' for #<#<Class:0x00007f71d952f808>:0x00007f71d952dda0>
+Did you mean?  tesk_path):
+    1: <%= form_tag(remote: true) do |f| %>
+    2:     <%= collection_select('money', 'value', @kebab, :last, :first, selected: :value) do |f| %>
+    3:     <% end %>
+    4:     <%= submit_tag url: testk_path, method: :post %>
+    5: 
+    6: <% end %>
+  
+app/views/home/index.html.erb:4:in `block in _app_views_home_index_html_erb__4531214829853661817_70063477072060'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063477072060'
+Started POST "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:21:08 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HHY5VHzYNn3o/5GpwFP2fGyKLcB8ykIKGKGqM6L542l6jT8vnsKFrKflhk/M6ykE1lK5Hj6dKVlLArW8m8CLCw==", "money"=>{"value"=>"$6466.02"}, "commit"=>"{:url=>\"/home/testk\", :method=>:post}", "remote"=>"true"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 1384ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:21:11 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WqVoXr0vBY+2rrPZQVCXZsmr86Dl8YOgIZZIAQGMDqQ8Xm4lXzW2Xvm0pD9N6Egec3Nnfqem6PNyNVeOOLVmxg==", "money"=>{"value"=>"$6453.40"}, "commit"=>"{:url=>\"/home/testk\", :method=>:post}", "remote"=>"true"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 1561ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:21:35 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"remote"=>"true"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 2365ms (Views: 93.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:21:43 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"remote"=>"true"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 2002ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:24:45 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 1392ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/index?url=%2Fhome%2Ftestk" for 127.0.0.1 at 2018-11-08 18:24:49 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/home/index?remote=true" for 127.0.0.1 at 2018-11-08 18:25:58 +0100
+Processing by HomeController#index as HTML
+  Parameters: {"remote"=>"true"}
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 1401ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/index?url=%2Fhome%2523testk" for 127.0.0.1 at 2018-11-08 18:26:02 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/home/index?url=%2Fhome%2523testk" for 127.0.0.1 at 2018-11-08 18:26:34 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/home/index?url=%2Fhome%2Ftestk" for 127.0.0.1 at 2018-11-08 18:27:27 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started POST "/home/index?url=%2Fhome%2Ftestk" for 127.0.0.1 at 2018-11-08 18:27:30 +0100
+  
+ActionController::RoutingError (No route matches [POST] "/home/index"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.6) lib/rack/method_override.rb:22:in `call'
+rack (2.0.6) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.6) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:27:50 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 1468ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:27:53 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UfbPL/twPU7CD5LU5dRrrsigNnDCFzhCGo54OJQPXhk3DclUGWqOn40VhTLpbLTWcniiroBAUxFJLWe3rTY2ew==", "money"=>{"value"=>"$6453.40"}, "commit"=>"/home/testk"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/home_controller.rb:8:in `testk'
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:28:24 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UfbPL/twPU7CD5LU5dRrrsigNnDCFzhCGo54OJQPXhk3DclUGWqOn40VhTLpbLTWcniiroBAUxFJLWe3rTY2ew==", "money"=>{"value"=>"$6453.40"}, "commit"=>"/home/testk"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/home_controller.rb:8:in `testk'
+Started PUT "/__web_console/repl_sessions/d5d0e3f2f23381cc0d5d11bf636caf82" for 127.0.0.1 at 2018-11-08 18:28:28 +0100
+Started PUT "/__web_console/repl_sessions/d5d0e3f2f23381cc0d5d11bf636caf82" for 127.0.0.1 at 2018-11-08 18:28:28 +0100
+Started PUT "/__web_console/repl_sessions/d5d0e3f2f23381cc0d5d11bf636caf82" for 127.0.0.1 at 2018-11-08 18:28:32 +0100
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:28:47 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UfbPL/twPU7CD5LU5dRrrsigNnDCFzhCGo54OJQPXhk3DclUGWqOn40VhTLpbLTWcniiroBAUxFJLWe3rTY2ew==", "money"=>{"value"=>"$6453.40"}, "commit"=>"/home/testk"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+RuntimeError ():
+  
+app/controllers/home_controller.rb:8:in `testk'
+Started PUT "/__web_console/repl_sessions/93f84dbf45ca7550cf6269a7a59c62a9" for 127.0.0.1 at 2018-11-08 18:28:49 +0100
+Started PUT "/__web_console/repl_sessions/93f84dbf45ca7550cf6269a7a59c62a9" for 127.0.0.1 at 2018-11-08 18:28:50 +0100
+Started PUT "/__web_console/repl_sessions/93f84dbf45ca7550cf6269a7a59c62a9" for 127.0.0.1 at 2018-11-08 18:29:14 +0100
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:29:43 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UfbPL/twPU7CD5LU5dRrrsigNnDCFzhCGo54OJQPXhk3DclUGWqOn40VhTLpbLTWcniiroBAUxFJLWe3rTY2ew==", "money"=>{"value"=>"$6453.40"}, "commit"=>"/home/testk"}
+No template found for HomeController#testk, rendering head :no_content
+Completed 204 No Content in 24ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:30:19 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UfbPL/twPU7CD5LU5dRrrsigNnDCFzhCGo54OJQPXhk3DclUGWqOn40VhTLpbLTWcniiroBAUxFJLWe3rTY2ew==", "money"=>{"value"=>"$6453.40"}, "commit"=>"/home/testk"}
+No template found for HomeController#testk, rendering head :no_content
+Completed 204 No Content in 23ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:30:23 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 1228ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:30:28 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EIRkM//4Cr05Xk7asuphdskQ0Dewj4rbCcxLoKD6UvZ2f2JIHeK5bHZEWTy+Ur4Oc8hE6fLY4Yhab1QvmcM6lA==", "money"=>{"value"=>"$0.501086"}, "commit"=>"/home/testk"}
+No template found for HomeController#testk, rendering head :no_content
+Completed 204 No Content in 55ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:31:52 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 1513ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:31:57 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8qpLMiTXYs81Xo6pnhhKme2W525Ni/ErXIhZ1j6t6/aUUU1Jxs3RHnpEmU+SoJXhV05zsA/cmngPK0ZZB5SDlA==", "money"=>{"value"=>"$0.076617"}, "commit"=>"/home/testk"}
+No template found for HomeController#testk, rendering head :no_content
+Completed 204 No Content in 52ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:32:19 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 1352ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:32:23 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oOo78VQawrN3CLImv95L+QZfJ22g4AbnTjMSlIxjLl7GET2KtgBxYjgSpcCzZpSBvIezs+K3bbQdkA0btVpGPA==", "money"=>{"value"=>"$5.52"}, "commit"=>"/home/testk"}
+No template found for HomeController#testk, rendering head :no_content
+Completed 204 No Content in 49ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:39:34 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 1268ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:40:11 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 1265ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:40:17 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9EJY0GodzeydgNEvYNVWCdIwuEnJcZfEu0UZ87XuC/mSuV6riAd+PdKaxslsbYlxaOgsl4sm/Jfo5gZ8jNdjmw==", "money"=>{"value"=>"$592.24"}, "commit"=>"/home/testk"}
+No template found for HomeController#testk, rendering head :no_content
+Completed 204 No Content in 62ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:40:26 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 1186ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:40:45 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 1980ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:40:50 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pZRap+SfFOT+XvbEvzM9tSpvdGU3giQ0hsEx4ZC6ikPDb1zcBoWnNbFE4SKzi+LNkLfgu3XVT2fVYi5uqYPiIQ==", "money"=>{"value"=>"$0.253983"}, "commit"=>"/home/testk"}
+Completed 500 Internal Server Error in 275ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `index_path' for #<HomeController:0x00007f71e5cfa180>):
+  
+app/controllers/home_controller.rb:8:in `testk'
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:41:01 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pZRap+SfFOT+XvbEvzM9tSpvdGU3giQ0hsEx4ZC6ikPDb1zcBoWnNbFE4SKzi+LNkLfgu3XVT2fVYi5uqYPiIQ==", "money"=>{"value"=>"$0.253983"}, "commit"=>"/home/testk"}
+Completed 500 Internal Server Error in 151ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `home_path' for #<HomeController:0x00007f71d1078a88>
+Did you mean?  home_index_path):
+  
+app/controllers/home_controller.rb:8:in `testk'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:41:05 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 1216ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:41:08 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWoC1zT2nWCeRbAj3IMDBESj8wyo813jgFb6mmFRmfVXkQSs1uwusdFfp8XQO9x8/ntn0uqkNrDT9eUVWGjxlw==", "money"=>{"value"=>"$9.65"}, "commit"=>"/home/testk"}
+Completed 500 Internal Server Error in 156ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `home_path' for #<HomeController:0x00007f71d977d650>
+Did you mean?  home_index_path):
+  
+app/controllers/home_controller.rb:8:in `testk'
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:41:18 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MWoC1zT2nWCeRbAj3IMDBESj8wyo813jgFb6mmFRmfVXkQSs1uwusdFfp8XQO9x8/ntn0uqkNrDT9eUVWGjxlw==", "money"=>{"value"=>"$9.65"}, "commit"=>"/home/testk"}
+Redirected to http://localhost:3000/home/index
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:41:18 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 1718ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:41:22 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ixxov1zu/tcGu8nk+qgwR31k7aa2gz2E019Bl0keAidF527EvvRNBkmh3gL2EO8/x7x5ePTUVteA/F4YcCdqRQ==", "money"=>{"value"=>"$53.28"}, "commit"=>"/home/testk"}
+Redirected to http://localhost:3000/home/index
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:41:22 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 1342ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:41:50 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 1309ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:41:56 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ndelfb9c4411iMYSsXrSK7Brm4UKc09udW8UNxHSnjtTLKMGXUZQXDqS0fS9wg1TCrMPW0gkJD0mzAu4KOv2WQ==", "money"=>{"value"=>"$0.023365"}, "commit"=>"/home/testk"}
+Redirected to http://localhost:3000/home/index
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:41:56 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 1260ms (Views: 48.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:42:00 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OXi+phR9ThizYCF7Mh6pizY/McRX4CapSAb4BItkE/9fg7jd9mf9yfx6Np0+pnbzjOelGhW3TfobpeeLsl17nQ==", "money"=>{"value"=>"$0.483048"}, "commit"=>"/home/testk"}
+Redirected to http://localhost:3000/home/index
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:42:00 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 2714ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:42:21 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 1367ms (Views: 33.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:42:25 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 1547ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:42:28 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2nr5nS4tb8TUUZWfW77htZ3sTjAfTsmnYQqN6+ELz1e8gf/mzDfcFZtLgnlXBj7NJzTa7l0ZovQyqZJk2DKnNQ==", "money"=>{"value"=>"$6445.05"}, "commit"=>"/home/testk"}
+Redirected to http://localhost:3000/home/index
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:42:28 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 1315ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:42:58 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 1327ms (Views: 44.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:44:01 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 2152ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:44:05 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 1269ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:44:12 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (17.9ms)
+Completed 500 Internal Server Error in 1195ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 3, expected 0..2)):
+    1: <%= form_tag(tesk_path) do |f| %>
+    2:     <%= collection_select('money', 'value', @kebab, :last, :first, prompt: :true) do |f| %>
+    3:     <% end %>
+    4:     <%= submit_tag tesk_path, name= 'OK', method: :post %>
+    5: <% end %>
+    6: <%= flash[:notice] %>
+  
+app/views/home/index.html.erb:4:in `block in _app_views_home_index_html_erb__4531214829853661817_70063573994060'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063573994060'
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:44:47 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (15.6ms)
+Completed 500 Internal Server Error in 1841ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 3, expected 0..2)):
+    1: <%= form_tag(tesk_path) do |f| %>
+    2:     <%= collection_select('money', 'value', @kebab, :last, :first, prompt: :true) do |f| %>
+    3:     <% end %>
+    4:     <%= submit_tag "OK", tesk_path, method: :post %>
+    5: <% end %>
+    6: <%= flash[:notice] %>
+  
+app/views/home/index.html.erb:4:in `block in _app_views_home_index_html_erb__4531214829853661817_70063407355720'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063407355720'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:44:55 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (20.4ms)
+Completed 500 Internal Server Error in 1421ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 3, expected 0..2)):
+    1: <%= form_tag(tesk_path) do |f| %>
+    2:     <%= collection_select('money', 'value', @kebab, :last, :first, prompt: :true) do |f| %>
+    3:     <% end %>
+    4:     <%= submit_tag "OK", tesk_path, method: :post %>
+    5: <% end %>
+    6: <%= flash[:notice] %>
+  
+app/views/home/index.html.erb:4:in `block in _app_views_home_index_html_erb__4531214829853661817_70063084134280'
+app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb__4531214829853661817_70063084134280'
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:45:06 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 1280ms (Views: 31.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:45:10 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZhGE91hEy0sDQV7ZyjUiQuwlCmvK2Bbeqgmh31nXoBMA6oKMul54mkxbST/Gjf06Vv2etYiPfY35qr5QYO7IcQ==", "money"=>{"value"=>"$53.28"}, "commit"=>"OK"}
+Redirected to http://localhost:3000/home/index
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:45:10 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 1863ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/home/testk" for 127.0.0.1 at 2018-11-08 18:45:16 +0100
+Processing by HomeController#testk as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UccMDoP3RmkWK2iwmS+NYIw61P9b6FeJq7/EeLXdBAY3PAp1Ye31uFkxf1aVl1IYNuJAIRm/PNr4HNv3jORsZA==", "money"=>{"value"=>"$0.994151"}, "commit"=>"OK"}
+Redirected to http://localhost:3000/home/index
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2018-11-08 18:45:16 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 1294ms (Views: 31.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-11-08 18:45:20 +0100
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (13.8ms)
+Completed 200 OK in 1266ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (14.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (8.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateStartScraps (20181108174720)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateStartScraps (20181108174720)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ bin/rails:9
